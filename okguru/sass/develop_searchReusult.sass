@@ -1,0 +1,200 @@
+.page-guru-search
+    .view-header
+        margin-bottom: 100px
+        .title_search_resault
+            color: black
+        .title_search_count
+            color: grey
+        
+    .mobile-filters
+        display: none
+
+
+    /*--- blog ---*/
+    .group-wrapper-left-right-group
+        margin-bottom: 50px
+        height: 200px
+        .group-wrapper-search-left
+            margin-right: 50px
+            height: 100%
+            width: 250px
+            float: left
+            img
+                height: 200px
+                width: auto
+            iframe
+                height: 100%
+        .group-wrapper-search-right
+            height: 150px
+            width: auto
+            margin-left: 300px
+            .field-name-title
+                transform: translateY(-6px)
+            .field-name-node-link
+                background: none !important
+            .commerce-product-title-label
+                display: none
+            .field-type-text-with-summary
+                height: 65px
+                text-overflow: ellipsis
+                text-overflow: -o-ellipsis-lastline
+                overflow: hidden
+                word-wrap: break-word
+                line-height: 22px
+
+            .group-wrapper-search-right-inner
+                display: flex
+                margin-top: 20px
+                > div
+                    font-size: 16px
+                    color: black
+                    width: auto
+                    line-height: 23px;
+                    .active
+                        color: black
+
+                .field-name-author
+                    &:before
+                        content: 'Автор :'
+                        display: block
+                        float: left
+                    .field-items
+                        margin-left: 6px
+                        float: left
+                    &:after
+                        content: '|'
+                        display: block
+                        width: 25px
+                        text-align: center
+                        float: right
+
+                .field-name-post-date
+                    &:before
+                        content: 'Добавлено '
+                        display: block
+                        float: left
+                    .field-items
+                        margin-left: 80px
+
+                .field-name-field-product-availability
+                    line-height: 24px
+                    padding: 0
+                    &:before
+                        content: '|'
+                        display: block
+                        width: 25px
+                        text-align: center
+                        float: left
+                    .field-items
+                        float: left
+
+                .field-name-comment
+                    line-height: 23px
+                    &:before
+                        content: '|'
+                        display: block
+                        width: 25px
+                        text-align: center
+                        float: left
+                    .field-items
+                        float: left
+                    &:after
+                        content: 'комментария'
+                        display: block
+                        float: right
+                        margin-left: 10px
+
+                .field-name-comment-otziv
+                    line-height: 23px
+                    &:before
+                        content: '|'
+                        display: block
+                        width: 25px
+                        text-align: center
+                        float: left
+                    .field-items
+                        float: left
+                    &:after
+                        content: 'отзыва'
+                        display: block
+                        float: right
+                        margin-left: 10px
+
+                .field-name-post-date, 
+                .field-name-author
+                    line-height: 23px
+
+                .field-name-field-ms-cons-type
+                    &:before
+                        content: 'Формат проведения :'
+                        display: block
+                        float: left
+                    ul.links
+                        margin: 0
+                        padding: 0
+                        margin-left: 150px
+                        li 
+                            list-style-type: none
+                            margin-right: 5px
+
+/*--- поиск ---*/
+.not-front.not-logged-in:not(.footer-columns)
+    #views-exposed-form-search-test-page-search-resault
+        display: none
+
+//шоп +
+    //html not-front not-logged-in one-sidebar sidebar-first page-shop role-anonymous-user footer-columns region-astroshop views-ajax-history-first-page-load-processed
+    //html not-front not-logged-in one-sidebar sidebar-first page-shop-shares role-anonymous-user footer-columns region-astroshop
+    //html not-front not-logged-in no-sidebars page-guru-search role-anonymous-user footer-columns region-astroshop
+//вход -
+    //html not-front not-logged-in no-sidebars page-user role-anonymous-user region-astroshop        
+
+.not-logged-in.page-guru-search #block-block-22
+    left: 50%
+    position: absolute
+    width: 100px
+    height: 100px
+
+
+#views-exposed-form-search-test-page-search-resault
+    .views-widget-filter-combine
+        padding: 0
+        margin-right: 30px
+        label 
+            display: none 
+
+        .form-item-combine
+            position: relative
+            &:before
+                content: ""
+                display: block
+                height: 13px
+                width: 13px
+                background: url("../images/search.png") no-repeat
+                background-size: cover
+                position: absolute
+                top: 5px
+
+            #edit-combine
+                background: no-repeat
+                outline: none
+                border: none
+                border-bottom: 3px solid white;
+                color: white
+                width: 100px
+                height: 27px
+                box-shadow: none
+
+                &::placeholder
+                    color: white
+
+    .views-submit-button
+        display: none
+
+                        
+
+
+
+
+
+

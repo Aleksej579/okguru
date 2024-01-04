@@ -1,0 +1,128 @@
+.checkout-register-btn {
+  display: block;
+  background: #0a1328;
+  color: #fff;
+  padding: 6px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "BwSurco-black", arial, sans-serif;
+  line-height: 34px;
+  text-align: center;
+  margin: 68px auto 0;
+  max-width: 90%
+} 
+
+.checkout-register-btn:hover { background: #55a6e8;}
+
+.page-checkout .account_form legend,
+#edit-account-form-help {display: none}
+
+.page-checkout select[name="customer_profile_billing[profile_selection]"] {
+  width: 90%;
+  display: none;
+}
+
+.page-checkout .form-item-customer-profile-billing-profile-selection,
+#edit-customer-profile-billing-edit-button {
+  display: none;
+}
+
+.page-checkout .commerce_shipping .form-radios  > .form-type-radio label {
+  cursor: pointer;
+}
+
+.page-checkout .customer_profile_billing.form-wrapper .form-item.form-item-customer-profile-billing-commerce-customer-address-und-0-postal-code {
+  margin-bottom: 10px;
+}
+
+.form-item.form-item-customer-profile-billing-commerce-customer-address-und-0-administrative-area {
+  display: none;
+}
+
+.page-checkout .customer_profile_billing .form-type-textfield {
+  position: relative;
+  max-width: 405px;
+}
+
+.page-checkout .customer_profile_billing .form-type-textfield .ui-delete-value {
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  right: 4px;
+  border: none;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0 4px;
+  opacity: .45;
+}
+
+.page-checkout .customer_profile_billing .form-type-textfield .ui-delete-value:hover {
+  opacity: 1
+}
+
+.page-checkout .customer_profile_billing .form-type-textfield input {
+  padding-right: 30px;
+}
+
+.form-item-customer-profile-billing-commerce-customer-address-und-0-country::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@media (max-width: 768px) {
+  .page-checkout .customer_profile_billing .form-type-textfield .ui-delete-value {
+    top: 27px;
+  }
+  .page-checkout #edit-buttons input[type="submit"] {
+    white-space: normal
+  }
+}
+
+
+
+/* балы и кнопка выход */
+#block-commerce-cart-cart a.ball {
+    z-index: 100 !important
+}
+
+@media (max-width: 1380px) {
+    #block-commerce-cart-cart a.ball {
+        width: 150px !important;
+        text-overflow: ellipsis !important;
+        font-size: 13px !important;
+        line-height: 18px !important;
+    }
+    
+}
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

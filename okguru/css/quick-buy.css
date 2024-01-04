@@ -1,0 +1,97 @@
+#block-webform-client-block-88531 {
+  display: none;
+}
+
+.btn-quick-buy {
+  /* height: 43px; */
+  text-align: center;
+  width: 100%;
+  /* color: #999;
+  background: #fff; */
+  /* border: 1px solid #eee; */
+  font-family: "BwSurco-black",arial,sans-serif;
+  /* font-size: 15px; */
+  font-style: normal;
+  line-height: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.field-name-quick-buying:hover .btn-quick-buy,
+.btn-quick-buy:hover {
+  background: #3e9ae5;
+  color: #fff;
+}
+
+.view .btn-quick-buy,
+.wrapp-swiper .btn-quick-buy {
+  /* font-size: 13px; */
+  /* line-height: 36px; */
+  /* height: 30px; */
+}
+
+.page-node.node-type-product-dsp .field-name-field-product-ref {
+  margin-bottom: 1em;
+}
+
+.page-node.node-type-product-dsp .node-full .field-name-quick-buying {
+  width: 178px;
+  margin-right: 17px;
+}
+
+.page-node.node-type-product-dsp .node-full .field-name-quick-buying {
+  border: 1px solid #eee;
+}
+
+.page-node.node-type-product-dsp .swiper-slide .node-product-dsp {
+ /*  position: static; */
+ height: 100%;
+}
+
+.page-node.node-type-product-dsp .swiper-slide {
+ /* position: relative; */
+}
+
+.view-display-id-okguru_shop_interested .views-row .field-type-ds {
+  top: auto;
+  bottom: 0;
+}
+
+#block-views-slider-okguru-slider-shop--2 .field-type-ds.field-name-node-link,
+.view-display-id-okguru_shop_interested .views-row .field-type-ds.field-name-node-link {
+  bottom: 45px;
+}
+
+#block-views-slider-okguru-slider-shop--2 .field-type-ds.field-name-quick-buying {
+/*  bottom: 48px; */
+}
+
+#webform-ajax-wrapper-88531 .links {
+  display: none;
+}
+
+#webform-ajax-wrapper-88531 .error {
+  width: auto;
+  color: #ccc;
+}
+
+#webform-ajax-wrapper-88531 .messages.error {
+  width: 80%;
+}
+
+/* #webform-ajax-wrapper-88531 .form-actions {
+  display: none;
+} */
+#webform-ajax-wrapper-88531 .form-actions {
+  display: block !important;
+}
+
+
+
+#webform-ajax-wrapper-88531 input[type="email"]{
+  padding-left: 20px;
+  height: 34px;
+  border: 1px solid #eee;
+  background: none;
+}

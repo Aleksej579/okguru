@@ -1,0 +1,84 @@
+/* ---------- General Layout ---------- */
+
+body,
+input,
+textarea,
+select {
+  color: #000;
+  background: none;
+}
+body.two-sidebars,
+body.sidebar-first,
+body.sidebar-second,
+body {
+  width: 640px;
+}
+#sidebar-first,
+#sidebar-second,
+.navigation,
+#toolbar,
+#footer-wrapper,
+.tabs,
+.add-or-remove-shortcuts {
+  display: none;
+}
+.one-sidebar #content,
+.two-sidebars #content {
+  width: 100%;
+}
+#triptych-wrapper {
+  width: 960px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+#triptych-first, #triptych-middle, #triptych-last {
+  width: 250px;
+}
+
+/* ---------- Node Pages ---------- */
+
+#comments .title,
+#comments form,
+.comment_forbidden,
+#back-top,
+.region-menuadm,
+#breadcrumb,
+.block-session-recent-nodes,
+#header,
+#triptych-wrapper,
+#footer-wrapper,
+#back-top {
+  display: none;
+}
+
+/*Заказ*/
+.page-user-orders .tabs,
+.page-user-orders .action-links,
+.page-user-orders #header,
+.page-user-orders .portals-holder,
+.page-user-orders #breadcrumb,
+.page-user-orders #portals,
+.page-user-orders #skip-link,
+.page-user-orders .footer,
+.page-user-orders #triptych-wrapper,
+.page-user-orders #footer-wrapper,
+.page-user-orders #admS,
+.page-user-orders #admin-menu,
+.page-user-orders .view-commerce-line-item-table .views-field-commerce-product,
+.page-user-orders .view-commerce-line-item-table td.views-field-commerce-product,
+.page-user-orders #CHSnippet,
+.page-user-orders > a,
+.page-user-orders #back-top{
+  display: none!important;
+}
+.page-user-orders .view-commerce-line-item-table .views-field-title a,
+.page-user-orders .view-commerce-line-item-table th,
+.page-user-orders .field-name-commerce-customer-billing .field-label,
+.page-user-orders .field-name-field-customer-phone .field-label,
+.page-user-orders .field-name-commerce-customer-shipping .field-label{
+  color: #000;
+}
+.page-user-orders{
+  background: none;
+}

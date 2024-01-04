@@ -1,0 +1,177 @@
+.not-logged-in.page-user #page-wrapper,
+.not-logged-in.page-master #page-wrapper {
+  height: auto;
+  min-height: 100vh;
+  padding-bottom: 70px; }
+
+.not-logged-in.page-user ul.primary li {
+  display: block !important; }
+
+#block-menu-menu-register-menu ul.menu {
+  margin: 23px 14px 20px;
+  padding: 0;
+  text-align: center; }
+  #block-menu-menu-register-menu ul.menu::after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden; }
+  #block-menu-menu-register-menu ul.menu li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none; }
+    #block-menu-menu-register-menu ul.menu li a {
+      display: inline-block;
+      padding: 0 7px;
+      font-size: 16px;
+      font-family: "BwSurco-bold", arial, sans-serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 600;
+      color: #999999;
+      -webkit-transition: color 0.2s ease;
+      -o-transition: color 0.2s ease;
+      transition: color 0.2s ease; }
+      #block-menu-menu-register-menu ul.menu li a:hover {
+        color: #294da2; }
+      #block-menu-menu-register-menu ul.menu li a.active {
+        color: #0a1328; }
+
+.not-logged-in.page-user div#messages,
+.page-user-register div#messages,
+.page-master-register div#messages,
+.page-user-login div#messages,
+.page-user-password div#messages {
+  display: block !important; }
+
+.not-logged-in.page-user .wrap-menu,
+.page-user-register .wrap-menu,
+.page-master-register .wrap-menu,
+.page-user-login .wrap-menu,
+.page-user-password .wrap-menu {
+  display: none; }
+
+.not-logged-in.page-user ul.tabs.primary,
+.page-user-register ul.tabs.primary,
+.page-master-register ul.tabs.primary,
+.page-user-login ul.tabs.primary,
+.page-user-password ul.tabs.primary {
+  margin-bottom: 20px; }
+  .not-logged-in.page-user ul.tabs.primary li,
+  .page-user-register ul.tabs.primary li,
+  .page-master-register ul.tabs.primary li,
+  .page-user-login ul.tabs.primary li,
+  .page-user-password ul.tabs.primary li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+    text-align: left;
+    border-right: 2px solid transparent;
+    float: none; }
+    .not-logged-in.page-user ul.tabs.primary li.active,
+    .page-user-register ul.tabs.primary li.active,
+    .page-master-register ul.tabs.primary li.active,
+    .page-user-login ul.tabs.primary li.active,
+    .page-user-password ul.tabs.primary li.active {
+      border-color: #999; }
+    .not-logged-in.page-user ul.tabs.primary li a,
+    .page-user-register ul.tabs.primary li a,
+    .page-master-register ul.tabs.primary li a,
+    .page-user-login ul.tabs.primary li a,
+    .page-user-password ul.tabs.primary li a {
+      display: inline-block;
+      padding: 0 7px;
+      font-size: 16px;
+      font-family: "BwSurco-bold", arial, sans-serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 600;
+      color: #999999;
+      -webkit-transition: color 0.2s ease;
+      -o-transition: color 0.2s ease;
+      transition: color 0.2s ease;
+      float: none; }
+      .not-logged-in.page-user ul.tabs.primary li a:hover,
+      .page-user-register ul.tabs.primary li a:hover,
+      .page-master-register ul.tabs.primary li a:hover,
+      .page-user-login ul.tabs.primary li a:hover,
+      .page-user-password ul.tabs.primary li a:hover {
+        color: #294da2; }
+      .not-logged-in.page-user ul.tabs.primary li a.active,
+      .page-user-register ul.tabs.primary li a.active,
+      .page-master-register ul.tabs.primary li a.active,
+      .page-user-login ul.tabs.primary li a.active,
+      .page-user-password ul.tabs.primary li a.active {
+        color: #0a1328; }
+
+.not-logged-in.page-user #content,
+.page-user-register #content,
+.page-master-register #content,
+.page-user-login #content,
+.page-user-password #content {
+  margin-bottom: 30px; }
+
+.not-logged-in.page-user #user-register-form fieldset[id*="edit-profile-fs-user"],
+.page-user-register #user-register-form fieldset[id*="edit-profile-fs-user"],
+.page-master-register #user-register-form fieldset[id*="edit-profile-fs-user"],
+.page-user-login #user-register-form fieldset[id*="edit-profile-fs-user"],
+.page-user-password #user-register-form fieldset[id*="edit-profile-fs-user"] {
+  display: none; }
+
+.not-logged-in.page-user #user-register-form fieldset[id*="edit-profile-master-profile"],
+.not-logged-in.page-user #user-register-form fieldset[id*="edit-field-master-profile-und"],
+.not-logged-in.page-user #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"],
+.page-user-register #user-register-form fieldset[id*="edit-profile-master-profile"],
+.page-user-register #user-register-form fieldset[id*="edit-field-master-profile-und"],
+.page-user-register #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"],
+.page-master-register #user-register-form fieldset[id*="edit-profile-master-profile"],
+.page-master-register #user-register-form fieldset[id*="edit-field-master-profile-und"],
+.page-master-register #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"],
+.page-user-login #user-register-form fieldset[id*="edit-profile-master-profile"],
+.page-user-login #user-register-form fieldset[id*="edit-field-master-profile-und"],
+.page-user-login #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"],
+.page-user-password #user-register-form fieldset[id*="edit-profile-master-profile"],
+.page-user-password #user-register-form fieldset[id*="edit-field-master-profile-und"],
+.page-user-password #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"] {
+  margin: 0;
+  padding: 0;
+  border: none; }
+  .not-logged-in.page-user #user-register-form fieldset[id*="edit-profile-master-profile"] > legend,
+  .not-logged-in.page-user #user-register-form fieldset[id*="edit-field-master-profile-und"] > legend,
+  .not-logged-in.page-user #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"] > legend,
+  .page-user-register #user-register-form fieldset[id*="edit-profile-master-profile"] > legend,
+  .page-user-register #user-register-form fieldset[id*="edit-field-master-profile-und"] > legend,
+  .page-user-register #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"] > legend,
+  .page-master-register #user-register-form fieldset[id*="edit-profile-master-profile"] > legend,
+  .page-master-register #user-register-form fieldset[id*="edit-field-master-profile-und"] > legend,
+  .page-master-register #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"] > legend,
+  .page-user-login #user-register-form fieldset[id*="edit-profile-master-profile"] > legend,
+  .page-user-login #user-register-form fieldset[id*="edit-field-master-profile-und"] > legend,
+  .page-user-login #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"] > legend,
+  .page-user-password #user-register-form fieldset[id*="edit-profile-master-profile"] > legend,
+  .page-user-password #user-register-form fieldset[id*="edit-field-master-profile-und"] > legend,
+  .page-user-password #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"] > legend {
+    display: none; }
+  .not-logged-in.page-user #user-register-form fieldset[id*="edit-profile-master-profile"] .form-item,
+  .not-logged-in.page-user #user-register-form fieldset[id*="edit-field-master-profile-und"] .form-item,
+  .not-logged-in.page-user #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"] .form-item,
+  .page-user-register #user-register-form fieldset[id*="edit-profile-master-profile"] .form-item,
+  .page-user-register #user-register-form fieldset[id*="edit-field-master-profile-und"] .form-item,
+  .page-user-register #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"] .form-item,
+  .page-master-register #user-register-form fieldset[id*="edit-profile-master-profile"] .form-item,
+  .page-master-register #user-register-form fieldset[id*="edit-field-master-profile-und"] .form-item,
+  .page-master-register #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"] .form-item,
+  .page-user-login #user-register-form fieldset[id*="edit-profile-master-profile"] .form-item,
+  .page-user-login #user-register-form fieldset[id*="edit-field-master-profile-und"] .form-item,
+  .page-user-login #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"] .form-item,
+  .page-user-password #user-register-form fieldset[id*="edit-profile-master-profile"] .form-item,
+  .page-user-password #user-register-form fieldset[id*="edit-field-master-profile-und"] .form-item,
+  .page-user-password #user-register-form fieldset[id*="edit-profile-master-profile-field-master-profile-und"] .form-item {
+    margin: 0 0 5px; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm9rZ3VydS5zYXNzIiwiLi4vc3JjL3Njc3MvYm91cmJvbi9hZGRvbnMvX3ByZWZpeGVyLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBV0E7O0VBRUMsYUFBWTtFQUNaLGtCQUFpQjtFQUNqQixxQkFBb0IsRUFBSTs7QUFFekI7RUFDQywwQkFBeUIsRUFBSTs7QUFLOUI7RUFHRSx1QkFBc0I7RUFDdEIsV0FBVTtFQUNWLG1CQUFrQixFQW9CUztFQXpCN0I7SUFuQkUsYUFBWTtJQUNaLFlBQVc7SUFDWCxlQUFjO0lBQ2QsVUFBUztJQUNULG1CQUFrQixFQUFJO0VBZXhCO0lBT0csZUFBYztJQUNkLFVBQVM7SUFDVCxXQUFVO0lBQ1Ysc0JBQXFCO0lBQ3JCLHVCQUFzQixFQWNFO0lBekIzQjtNQWFJLHNCQUFxQjtNQUNyQixlQUFjO01BQ2QsZ0JBQWU7TUFDZiwrQ0FBOEM7TUFDOUMsMEJBQXlCO01BQ3pCLHNCQUFxQjtNQUNyQixpQkFBZ0I7TUFDaEIsZUFBYztNQ1JWLG9DRFM4QjtNQ085QiwrQkRQOEI7TUNPOUIsNEJEUDhCLEVBSWI7TUF6QnpCO1FBdUJLLGVBQTRCLEVBQUc7TUF2QnBDO1FBeUJLLGVBQWMsRUFBSTs7QUFLdkI7Ozs7O0VBTUUsMEJBQXlCLEVBQUk7O0FBTi9COzs7OztFQVFFLGNBQWEsRUFBSTs7QUFSbkI7Ozs7O0VBVUUsb0JBQW1CLEVBMEJRO0VBcEM3Qjs7Ozs7SUFZRyxlQUFjO0lBQ2QsVUFBUztJQUNULFdBQVU7SUFDVixzQkFBcUI7SUFDckIsdUJBQXNCO0lBQ3RCLGlCQUFnQjtJQUNoQixvQ0FBbUM7SUFDbkMsWUFBVyxFQWlCYTtJQXBDM0I7Ozs7O01BcUJJLG1CQUFrQixFQUFJO0lBckIxQjs7Ozs7TUF1Qkksc0JBQXFCO01BQ3JCLGVBQWM7TUFDZCxnQkFBZTtNQUNmLCtDQUE4QztNQUM5QywwQkFBeUI7TUFDekIsc0JBQXFCO01BQ3JCLGlCQUFnQjtNQUNoQixlQUFjO01DaERWLG9DRGlEOEI7TUNqQzlCLCtCRGlDOEI7TUNqQzlCLDRCRGlDOEI7TUFDbEMsWUFBVyxFQUlVO01BcEN6Qjs7Ozs7UUFrQ0ssZUFBNEIsRUFBRztNQWxDcEM7Ozs7O1FBb0NLLGVBQWMsRUFBSTs7QUFwQ3ZCOzs7OztFQXNDRSxvQkFBbUIsRUFBSTs7QUF0Q3pCOzs7OztFQXlDRyxjQUFhLEVBQUk7O0FBekNwQjs7Ozs7Ozs7Ozs7Ozs7O0VBNkNHLFVBQVM7RUFDVCxXQUFVO0VBQ1YsYUFBWSxFQUlVO0VBbkR6Qjs7Ozs7Ozs7Ozs7Ozs7O0lBaURJLGNBQWEsRUFBSTtFQWpEckI7Ozs7Ozs7Ozs7Ozs7OztJQW1ESSxnQkFBZSxFQUFJIiwiZmlsZSI6Im9rZ3VydS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0ICcuLi9zcmMvc2Nzcy9ib3VyYm9uL2JvdXJib24nO1xuXG5AbWl4aW4gY2xlYXJmaXgge1xuXHQmOjphZnRlciB7XG5cdFx0Y29udGVudDogXCIuXCI7XG5cdFx0Y2xlYXI6IGJvdGg7XG5cdFx0ZGlzcGxheTogYmxvY2s7XG5cdFx0aGVpZ2h0OiAwO1xuXHRcdHZpc2liaWxpdHk6IGhpZGRlbjsgfSB9XG5cblxuLm5vdC1sb2dnZWQtaW4ucGFnZS11c2VyICNwYWdlLXdyYXBwZXIsXG4ubm90LWxvZ2dlZC1pbi5wYWdlLW1hc3RlciAjcGFnZS13cmFwcGVyIHtcblx0aGVpZ2h0OiBhdXRvO1xuXHRtaW4taGVpZ2h0OiAxMDB2aDtcblx0cGFkZGluZy1ib3R0b206IDcwcHg7IH1cblxuLm5vdC1sb2dnZWQtaW4ucGFnZS11c2VyIHVsLnByaW1hcnkgbGkge1xuXHRkaXNwbGF5OiBibG9jayAhaW1wb3J0YW50OyB9XG5cbi8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09XG4vLyBSZWdpc3RlciBQYWdlcyBNZW51XG4vLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PVxuI2Jsb2NrLW1lbnUtbWVudS1yZWdpc3Rlci1tZW51IHtcblx0dWwubWVudSB7XG5cdFx0QGluY2x1ZGUgY2xlYXJmaXg7XG5cdFx0bWFyZ2luOiAyM3B4IDE0cHggMjBweDtcblx0XHRwYWRkaW5nOiAwO1xuXHRcdHRleHQtYWxpZ246IGNlbnRlcjtcblx0XHRsaSB7XG5cdFx0XHRkaXNwbGF5OiBibG9jaztcblx0XHRcdG1hcmdpbjogMDtcblx0XHRcdHBhZGRpbmc6IDA7XG5cdFx0XHRsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XG5cdFx0XHRsaXN0LXN0eWxlLWltYWdlOiBub25lO1xuXHRcdFx0YSB7XG5cdFx0XHRcdGRpc3BsYXk6IGlubGluZS1ibG9jaztcblx0XHRcdFx0cGFkZGluZzogMCA3cHg7XG5cdFx0XHRcdGZvbnQtc2l6ZTogMTZweDtcblx0XHRcdFx0Zm9udC1mYW1pbHk6IFwiQndTdXJjby1ib2xkXCIsIGFyaWFsLCBzYW5zLXNlcmlmO1xuXHRcdFx0XHR0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuXHRcdFx0XHR0ZXh0LWRlY29yYXRpb246IG5vbmU7XG5cdFx0XHRcdGZvbnQtd2VpZ2h0OiA2MDA7XG5cdFx0XHRcdGNvbG9yOiAjOTk5OTk5O1xuXHRcdFx0XHRAaW5jbHVkZSB0cmFuc2l0aW9uKGNvbG9yIC4ycyBlYXNlKTtcblx0XHRcdFx0Jjpob3ZlciB7XG5cdFx0XHRcdFx0Y29sb3I6IGxpZ2h0ZW4oIzBhMTMyOCwgMzAlKTsgfVxuXHRcdFx0XHQmLmFjdGl2ZSB7XG5cdFx0XHRcdFx0Y29sb3I6ICMwYTEzMjg7IH0gfSB9IH0gfVxuXG4vLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PVxuLy8gVXNlci9NYXN0ZXIgUmVnaXN0ZXIgUGFnZXNcbi8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09XG4ubm90LWxvZ2dlZC1pbi5wYWdlLXVzZXIsXG4ucGFnZS11c2VyLXJlZ2lzdGVyLFxuLnBhZ2UtbWFzdGVyLXJlZ2lzdGVyLFxuLnBhZ2UtdXNlci1sb2dpbixcbi5wYWdlLXVzZXItcGFzc3dvcmQge1xuXHRkaXYjbWVzc2FnZXMge1xuXHRcdGRpc3BsYXk6IGJsb2NrICFpbXBvcnRhbnQ7IH1cblx0LndyYXAtbWVudSwge1xuXHRcdGRpc3BsYXk6IG5vbmU7IH1cblx0dWwudGFicy5wcmltYXJ5IHtcblx0XHRtYXJnaW4tYm90dG9tOiAyMHB4O1xuXHRcdGxpIHtcblx0XHRcdGRpc3BsYXk6IGJsb2NrO1xuXHRcdFx0bWFyZ2luOiAwO1xuXHRcdFx0cGFkZGluZzogMDtcblx0XHRcdGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcblx0XHRcdGxpc3Qtc3R5bGUtaW1hZ2U6IG5vbmU7XG5cdFx0XHR0ZXh0LWFsaWduOiBsZWZ0O1xuXHRcdFx0Ym9yZGVyLXJpZ2h0OiAycHggc29saWQgdHJhbnNwYXJlbnQ7XG5cdFx0XHRmbG9hdDogbm9uZTtcblx0XHRcdCYuYWN0aXZlIHtcblx0XHRcdFx0Ym9yZGVyLWNvbG9yOiAjOTk5OyB9XG5cdFx0XHRhIHtcblx0XHRcdFx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xuXHRcdFx0XHRwYWRkaW5nOiAwIDdweDtcblx0XHRcdFx0Zm9udC1zaXplOiAxNnB4O1xuXHRcdFx0XHRmb250LWZhbWlseTogXCJCd1N1cmNvLWJvbGRcIiwgYXJpYWwsIHNhbnMtc2VyaWY7XG5cdFx0XHRcdHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG5cdFx0XHRcdHRleHQtZGVjb3JhdGlvbjogbm9uZTtcblx0XHRcdFx0Zm9udC13ZWlnaHQ6IDYwMDtcblx0XHRcdFx0Y29sb3I6ICM5OTk5OTk7XG5cdFx0XHRcdEBpbmNsdWRlIHRyYW5zaXRpb24oY29sb3IgLjJzIGVhc2UpO1xuXHRcdFx0XHRmbG9hdDogbm9uZTtcblx0XHRcdFx0Jjpob3ZlciB7XG5cdFx0XHRcdFx0Y29sb3I6IGxpZ2h0ZW4oIzBhMTMyOCwgMzAlKTsgfVxuXHRcdFx0XHQmLmFjdGl2ZSB7XG5cdFx0XHRcdFx0Y29sb3I6ICMwYTEzMjg7IH0gfSB9IH1cblx0I2NvbnRlbnQge1xuXHRcdG1hcmdpbi1ib3R0b206IDMwcHg7IH1cblx0I3VzZXItcmVnaXN0ZXItZm9ybSB7XG5cdFx0ZmllbGRzZXRbaWQqPVwiZWRpdC1wcm9maWxlLWZzLXVzZXJcIl0ge1xuXHRcdFx0ZGlzcGxheTogbm9uZTsgfVxuXHRcdGZpZWxkc2V0W2lkKj1cImVkaXQtcHJvZmlsZS1tYXN0ZXItcHJvZmlsZVwiXSxcblx0XHRmaWVsZHNldFtpZCo9XCJlZGl0LWZpZWxkLW1hc3Rlci1wcm9maWxlLXVuZFwiXSxcblx0XHRmaWVsZHNldFtpZCo9XCJlZGl0LXByb2ZpbGUtbWFzdGVyLXByb2ZpbGUtZmllbGQtbWFzdGVyLXByb2ZpbGUtdW5kXCJdIHtcblx0XHRcdG1hcmdpbjogMDtcblx0XHRcdHBhZGRpbmc6IDA7XG5cdFx0XHRib3JkZXI6IG5vbmU7XG5cdFx0XHQmID4gbGVnZW5kIHtcblx0XHRcdFx0ZGlzcGxheTogbm9uZTsgfVxuXHRcdFx0LmZvcm0taXRlbSB7XG5cdFx0XHRcdG1hcmdpbjogMCAwIDVweDsgfSB9IH0gfVxuXG4iLCJAY2hhcnNldCBcIlVURi04XCI7XG5cbi8vLyBBIG1peGluIGZvciBnZW5lcmF0aW5nIHZlbmRvciBwcmVmaXhlcyBvbiBub24tc3RhbmRhcmRpemVkIHByb3BlcnRpZXMuXG4vLy9cbi8vLyBAcGFyYW0ge1N0cmluZ30gJHByb3BlcnR5XG4vLy8gICBQcm9wZXJ0eSB0byBwcmVmaXhcbi8vL1xuLy8vIEBwYXJhbSB7Kn0gJHZhbHVlXG4vLy8gICBWYWx1ZSB0byB1c2Vcbi8vL1xuLy8vIEBwYXJhbSB7TGlzdH0gJHByZWZpeGVzXG4vLy8gICBQcmVmaXhlcyB0byBkZWZpbmVcbi8vL1xuLy8vIEBleGFtcGxlIHNjc3MgLSBVc2FnZVxuLy8vICAgLmVsZW1lbnQge1xuLy8vICAgICBAaW5jbHVkZSBwcmVmaXhlcihib3JkZXItcmFkaXVzLCAxMHB4LCB3ZWJraXQgbXMgc3BlYyk7XG4vLy8gICB9XG4vLy9cbi8vLyBAZXhhbXBsZSBjc3MgLSBDU1MgT3V0cHV0XG4vLy8gICAuZWxlbWVudCB7XG4vLy8gICAgIC13ZWJraXQtYm9yZGVyLXJhZGl1czogMTBweDtcbi8vLyAgICAgLW1vei1ib3JkZXItcmFkaXVzOiAxMHB4O1xuLy8vICAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuLy8vICAgfVxuLy8vXG4vLy8gQHJlcXVpcmUge3ZhcmlhYmxlfSAkcHJlZml4LWZvci13ZWJraXRcbi8vLyBAcmVxdWlyZSB7dmFyaWFibGV9ICRwcmVmaXgtZm9yLW1vemlsbGFcbi8vLyBAcmVxdWlyZSB7dmFyaWFibGV9ICRwcmVmaXgtZm9yLW1pY3Jvc29mdFxuLy8vIEByZXF1aXJlIHt2YXJpYWJsZX0gJHByZWZpeC1mb3Itb3BlcmFcbi8vLyBAcmVxdWlyZSB7dmFyaWFibGV9ICRwcmVmaXgtZm9yLXNwZWNcblxuQG1peGluIHByZWZpeGVyKCRwcm9wZXJ0eSwgJHZhbHVlLCAkcHJlZml4ZXMpIHtcbiAgQGVhY2ggJHByZWZpeCBpbiAkcHJlZml4ZXMge1xuICAgIEBpZiAkcHJlZml4ID09IHdlYmtpdCB7XG4gICAgICBAaWYgJHByZWZpeC1mb3Itd2Via2l0IHtcbiAgICAgICAgLXdlYmtpdC0jeyRwcm9wZXJ0eX06ICR2YWx1ZTtcbiAgICAgIH1cbiAgICB9IEBlbHNlIGlmICRwcmVmaXggPT0gbW96IHtcbiAgICAgIEBpZiAkcHJlZml4LWZvci1tb3ppbGxhIHtcbiAgICAgICAgLW1vei0jeyRwcm9wZXJ0eX06ICR2YWx1ZTtcbiAgICAgIH1cbiAgICB9IEBlbHNlIGlmICRwcmVmaXggPT0gbXMge1xuICAgICAgQGlmICRwcmVmaXgtZm9yLW1pY3Jvc29mdCB7XG4gICAgICAgIC1tcy0jeyRwcm9wZXJ0eX06ICR2YWx1ZTtcbiAgICAgIH1cbiAgICB9IEBlbHNlIGlmICRwcmVmaXggPT0gbyB7XG4gICAgICBAaWYgJHByZWZpeC1mb3Itb3BlcmEge1xuICAgICAgICAtby0jeyRwcm9wZXJ0eX06ICR2YWx1ZTtcbiAgICAgIH1cbiAgICB9IEBlbHNlIGlmICRwcmVmaXggPT0gc3BlYyB7XG4gICAgICBAaWYgJHByZWZpeC1mb3Itc3BlYyB7XG4gICAgICAgICN7JHByb3BlcnR5fTogJHZhbHVlO1xuICAgICAgfVxuICAgIH0gQGVsc2UgIHtcbiAgICAgIEB3YXJuIFwiVW5yZWNvZ25pemVkIHByZWZpeDogI3skcHJlZml4fVwiO1xuICAgIH1cbiAgfVxufVxuXG5AbWl4aW4gZGlzYWJsZS1wcmVmaXgtZm9yLWFsbCgpIHtcbiAgJHByZWZpeC1mb3Itd2Via2l0OiAgICBmYWxzZSAhZ2xvYmFsO1xuICAkcHJlZml4LWZvci1tb3ppbGxhOiAgIGZhbHNlICFnbG9iYWw7XG4gICRwcmVmaXgtZm9yLW1pY3Jvc29mdDogZmFsc2UgIWdsb2JhbDtcbiAgJHByZWZpeC1mb3Itb3BlcmE6ICAgICBmYWxzZSAhZ2xvYmFsO1xuICAkcHJlZml4LWZvci1zcGVjOiAgICAgIGZhbHNlICFnbG9iYWw7XG59XG4iXX0= */

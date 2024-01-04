@@ -1,0 +1,37 @@
+/* #block-search-form {visibility: hidden;} */
+
+/* .two-sidebars:not(.role-administrator) .in_dev,  */
+/* .page-exclusive-goods:not(.role-administrator) .in_dev,  */
+.page-node-87486 .in_dev, 
+.page-video:not(.role-administrator) .in_dev
+/* .page-page-userpoints-charge-card:not(.role-administrator) .in_dev  */
+{
+    display: none;
+}
+
+/* .two-sidebars:not(.role-administrator) #razdel,  */
+/* .page-exclusive-goods:not(.role-administrator) #razdel, */
+/* .page-page-userpoints-charge-card:not(.role-administrator) #razdel, */
+.page-node-87486 #razdel, 
+.page-video:not(.role-administrator) #razdel {
+    height: 100vh;
+    background-image: url(/sites/all/themes/okguru/images/razdel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+}
+
+/* .page-exclusive-goods:not(.role-administrator) #razdel */
+/* .page-page-userpoints-charge-card:not(.role-administrator) #razdel */
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+name = okguru
+description = A flexible, recolorable theme with many regions OKGURU.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/ss-symbolicons-block.css
+
+stylesheets[all][] = css/stacktable.css
+stylesheets[all][] = css/jquery-labelauty.css
+stylesheets[all][] = css/responsive-tables.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/lightslider.min.css
+stylesheets[all][] = js/jBox/jBox.css
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/owl.carousel.css
+stylesheets[all][] = css/swiper.min.css
+stylesheets[all][] = css/plugins/tooltipster/sideTip/themes/tooltipster.bundle.min.css
+stylesheets[all][] = css/jquery.custom-scroll.css
+stylesheets[all][] = css/okguru.styles.css
+stylesheets[all][] = css/okguru.query.css
+stylesheets[all][] = css/develop_time.css
+stylesheets[all][] = css/_develop.css
+stylesheets[all][] = css/develop_searchReusult.css
+stylesheets[all][] = css/quick-buy.css
+stylesheets[all][] = css/okguru.fix.css
+
+
+scripts[] = js/stacktable.js
+scripts[] = js/responsive-tables.js
+scripts[] = js/jquery-labelauty.js
+scripts[] = js/jquery.maskedinput.min.js
+scripts[] = js/jquery.validate.min.js
+scripts[] = js/lightslider.min.js
+scripts[] = js/jBox/jBox.min.js
+scripts[] = js/jquery.jcarousellite.min.js
+scripts[] = js/html5shiv.min.js
+scripts[] = js/swiper.jquery.min.js
+scripts[] = js/owl.carousel.min.js
+scripts[] = js/jquery.custom-scroll.js
+scripts[] = js/tooltipster.bundle.min.js
+scripts[] = js/chosen.jquery.min.js
+scripts[] = js/jquery.pin.js
+scripts[] = js/common-viwes.js
+scripts[] = js/quick-buy.js
+scripts[] = js/script.js
+scripts[] = js/script.min.js
+scripts[] = js/dev.js
+scripts[] = js/categories-mobile.js
+
+
+
+regions[portals] = Portals
+regions[sale] = Sale
+regions[header] = Header
+regions[top_header] = top header
+regions[menu] = Menu
+regions[slider] = Slider
+regions[topcategory] = TopCategory
+regions[topbrands] = TopBrands
+regions[topnew] = TopNew
+regions[toprecommend] = TopRecommend
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+regions[featured] = Featured
+regions[content] = Content
+regions[region-1] = Region-1
+regions[region-2] = Region-2
+regions[region-3] = Region-3
+regions[region-4] = Region-4
+regions[region-5] = Region-5
+regions[region-6] = Region-6
+regions[filter] = Filter
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[text] = text
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+regions[triptych_four] = Triptych 4
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer_fivecolumn] = Footer five column
+regions[footer] = Footer
+
+
+settings[shortcut_module_link] = 0
+
+; Information added by Drupal.org packaging script on 2014-04-16
+version = "7.27"
+project = "drupal"
+datestamp = "1397687057"
